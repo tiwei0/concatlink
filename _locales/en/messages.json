@@ -1,0 +1,15 @@
+{
+  "extensionName": {
+    "message": "Customlink",
+    "description": "Name of the extension."
+  },
+
+  "createCustomLink": {
+    "message": "Create custom link"
+  },
+
+  "openCustomLink": {
+    "message": "Open custom link"
+  }
+
+}

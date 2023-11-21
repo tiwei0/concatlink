@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Concatlink",
+  "version": "1.0",
+  "default_locale": "en",
+
+  "description": "Concatinate a customizable string to a hyperlink and open that hyperlink in a new tab",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/main/beastify",
+  "permissions": ["contextMenus","storage","activeTab"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
