@@ -1,12 +1,36 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-  </head>
 
-  <body>
-    <div><input type="text" id="form"></input></div>
-    <div><span id="result"></span><span>/your/link/</span></div>
-    <script src="form.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body {
+      background-color: powderblue;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .input {
+      width: 90%
+    }
+
+    .button {
+      display: flex;
+      width: 100%;
+      justify-content: end;
+    }
+  </style>
+</head>
+
+<body>
+  <div><input type="text" class="input" id="name"></input></div>
+  <div><input type="text" class="input" id="url"></input></div>
+  <div class="button"><input type="button" id="ok" value="Ok" style="margin-left: auto; margin-right: 10%;"></input>
+  </div>
+  <div><span id="result"></span></div>
+
+  <script src="form.js"></script>
+</body>
+
 </html>

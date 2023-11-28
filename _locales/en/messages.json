@@ -1,15 +1,31 @@
 {
   "extensionName": {
-    "message": "Customlink",
+    "message": "Concatlink",
     "description": "Name of the extension."
   },
 
-  "createCustomLink": {
-    "message": "Create custom link"
+  "editConcatLink": {
+    "message": "Edit concatenated link"
   },
 
-  "openCustomLink": {
-    "message": "Open custom link"
+  "changeConcatLink": {
+    "message": "Change concatenated link"
+  },
+
+  "openConcatLink": {
+    "message": "Open with"
+  },
+
+  "saved": {
+    "message": "Saved"
+  },
+
+  "name": {
+    "message": "Name"
+  },
+
+  "url": {
+    "message": "URL"
   }
 
 }
